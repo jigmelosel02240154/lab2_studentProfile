@@ -51,7 +51,8 @@
         android:layout_marginTop="2dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name" />
+        android:text="Name"
+        tools:text=" Jigme Losel" />
 
     <TextView
         android:id="@+id/textView3"
@@ -69,7 +70,8 @@
         android:layout_marginTop="2dp"
         android:ems="10"
         android:inputType="text"
-        android:text="StudentID" />
+        android:text="StudentID"
+        tools:text="02240154" />
 
     <TextView
         android:id="@+id/textView4"
@@ -77,7 +79,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextText2"
         android:layout_marginTop="10dp"
-        android:text="Programme" />
+        android:text="Programme and  Department" />
 
     <EditText
         android:id="@+id/editTextText3"
@@ -87,7 +89,8 @@
         android:layout_marginTop="2dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Programme" />
+        android:text="Programme"
+        tools:text="BE IT, CTD" />
 
     <TextView
         android:id="@+id/textView5"
@@ -95,7 +98,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextText3"
         android:layout_marginTop="10dp"
-        android:text="Department" />
+        android:text="Semester" />
 
     <EditText
         android:id="@+id/editTextText4"
@@ -104,8 +107,10 @@
         android:layout_below="@+id/textView5"
         android:layout_marginTop="2dp"
         android:ems="10"
+        android:hint="5"
         android:inputType="text"
-        android:text="Semester" />
+        android:text="Semester"
+        tools:text="5" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -114,7 +119,8 @@
         android:layout_below="@+id/textView7"
         android:layout_marginTop="2dp"
         android:ems="10"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        tools:text="02240154.cst@rub.edu.bt" />
 
     <TextView
         android:id="@+id/textView7"
@@ -139,7 +145,8 @@
         android:layout_below="@+id/textView8"
         android:layout_marginTop="2dp"
         android:ems="10"
-        android:inputType="phone" />
+        android:inputType="phone"
+        tools:text="17936686" />
 
     <Button
         android:id="@+id/button"
